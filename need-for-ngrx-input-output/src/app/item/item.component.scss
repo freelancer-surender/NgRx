@@ -1,0 +1,27 @@
+.item-container {
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  border: 1px solid #f1f1f1;
+  margin: 30px;
+  box-shadow: 5px 5px 5px #f2f2f2;
+  .pic {
+    width: 300px;
+    height: 300px;
+    img {
+      width: 300px;
+      height: 300px;
+      object-fit: contain;
+    }
+  }
+  .name-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+    .name {
+      font-weight: bold;
+      font-size: 16px;
+    }
+  }
+}

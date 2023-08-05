@@ -1,0 +1,12 @@
+.vegetables-container {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  .spinner {
+    width: calc(100% - 100px);
+    position: absolute;
+    top: 400px;
+    text-align: center;
+  }
+}

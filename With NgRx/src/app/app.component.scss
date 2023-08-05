@@ -1,0 +1,9 @@
+.container {
+  position: relative;
+  .spinner {
+    width: calc(100% - 100px);
+    position: absolute;
+    top: 400px;
+    text-align: center;
+  }
+}

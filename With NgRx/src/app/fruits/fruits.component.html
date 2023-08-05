@@ -1,0 +1,12 @@
+<!-- <div class="fruits-container">
+  <app-item [item]="apple"></app-item>
+  <app-item [item]="orange"></app-item>
+  <app-item [item]="grapes"></app-item>
+</div> -->
+
+<div class="fruits-container">
+  <!-- <div class="spinner" *ngIf="isLoading">
+    <app-spinner></app-spinner>
+  </div> -->
+  <app-item *ngFor="let item of fruits" [item]="item"></app-item>
+</div>

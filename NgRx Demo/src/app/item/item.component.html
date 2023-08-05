@@ -1,0 +1,9 @@
+<div class="item-container">
+  <div class="pic">
+    <img [src]="item.pic" alt="">
+  </div>
+  <div class="name-btn">
+    <div class="name">{{ item.name }}</div>
+    <app-add-item (addItemToCart)="addToCart()"></app-add-item>
+  </div>
+</div>
